@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- F7FAFF -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zignuts Technolab</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/media.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DynaPuff:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Modal -->
+  <div class="modal fade" id="registerModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Book Demo Class</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="" class="modalForm p-2 ">
+            <h3>Book Your Free Class Now!</h3>
+            <p>2 days of free demo classes without paying in advance! </p>
+
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" placeholder="Enter Your Name">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Enter Your Email">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Phone</label>
+              <input type="text" class="form-control" placeholder="Phone">
+            </div>
+
+            <div class="mt-4">
+              <button class="registerBtn">Register Now</button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <header class="zignutsNavbar bg-white container-fluid py-2 shadow-lg position-sticky top-0">
+    <div class="container ">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-12 py-2 text-lg-start text-center">
+          <img height="50px" src="https://www.topdevelopers.co/upload/201709070344211295744190.png" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="btn-outer d-flex justify-content-center justify-content-lg-end align-items-center gap-3">
+            <button class="btn whatsappBtn btn-outline-success"><i class="fa-brands fa-whatsapp"></i> Chat with
+              Us</button>
+            <button class="btn callUsBtn"><i class="fa-solid fa-phone"></i> Call Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="container-fluid py-lg-5 py-sm-4 py-3">
+    <div class="container">
+      <div class="row  justify-content-between gy-3 align-items-center ">
+        <div class="col-lg-6">
+          <div class="bannerContent">
+            <h1>Carrier Opportunities <br> in <span>Digital Marketing</span></h1>
+            <p>Digital Marketing course so good,you only pay-after-placement.</p>
+
+            <ul class="p-0 m-0 ">
+              <li class="mb-3"><i class="fa-solid fa-circle-check"></i> Specialization : Performance Marketing</li>
+              <li class="mb-3"><i class="fa-solid fa-circle-check"></i> Min salary of Rs 4.5 LPA</li>
+              <li class="mb-3"><i class="fa-solid fa-circle-check"></i> 50 Seats only</li>
+            </ul>
+
+            <div class="bannerContentBtn d-flex gap-3 ">
+              <button data-bs-toggle="modal" data-bs-target="#registerModal">Book 2 Days Demo</button>
+              <button><i class="fa-solid fa-download"></i>Downlaod Curricuram</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 ">
+
+          <form action="" class="bannerForm shadow-lg">
+            <h3>Book Your Free Class Now!</h3>
+            <p>2 days of free demo classes without paying in advance! </p>
+
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" placeholder="Enter Your Name">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Enter Your Email">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Phone</label>
+              <div class="input-group mb-3" style="z-index: -1;">
+                <span class="input-group-text" id="basic-addon1">+91</span>
+                <input type="text" class="form-control" placeholder="Phone">
+              </div>
+            </div>
+
+            <div class="mt-3">
+              <button class="registerBtn">Register Now</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="bar container bg-white shadow-lg">
+      <div class="row row-cols-lg-5 row-cols-sm-3 gy-sm-3 gy-lg-0 row-cols-1 p-5 text-center">
+        <div class="col barBox">
+          <h1>1000+</h1>
+          <p>Student Trained</p>
+        </div>
+        <div class="col barBox">
+          <h1><i class="fa-solid fa-indian-rupee-sign"></i> 4.5LPA</h1>
+          <p>Student Trained</p>
+        </div>
+        <div class="col barBox">
+          <h1>320+</h1>
+          <p>Recuruiting Partners</p>
+        </div>
+        <div class="col barBox">
+          <h1>10:00 am</h1>
+          <p>Program Timing</p>
+        </div>
+        <div class="col barBox">
+          <h1>11th May</h1>
+          <p>Next Batch Start</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="highlight container-fluid py-5">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="highlight-header">
+            <h2>Key Highlights of the Course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti harum quidem natus aperiam, consectetur
+              adipisci unde itaque numquam libero at!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-lg-4 row-cols-md-1 justify-content-center align-items-center row-cols-1">
+        <div class="col-lg-4 col-md-6 justify-content-center gy-3 gx-4">
+
+          <div
+            class="highlight-item px-4 shadow-sm d-flex justify-content-lg-evenly justify-content-start gap-4 align-items-center">
+            <i class="fa-solid fa-file fa-lg" style="color: #74C0FC;"></i>
+            <div>
+              <h4>Assignments & <br> Modular tests</h1>
+                <p>Test your Knowledge</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 gy-3 gx-4">
+          <div
+            class="highlight-item px-4 shadow-sm d-flex justify-content-lg-evenly justify-content-start gap-4 align-items-center">
+            <i class="fa-solid fa-certificate fa-lg" style="color: #B197FC;"></i>
+            <div>
+              <h4>Industry-recognized <br> Certification</h1>
+                <p>Stend out to your professional</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 gy-3 gx-4">
+          <div
+            class="highlight-item px-4 shadow-sm d-flex justify-content-lg-evenly justify-content-start gap-4 align-items-center">
+            <i class="fa-solid fa-video  fa-lg" style="color: #22ce6c;"></i>
+            <div>
+              <h4>Live classes & <br> Recorded Lectures</h1>
+                <p>Best of both world of learning</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6  gy-3 gx-4">
+          <div
+            class="highlight-item px-4 shadow-sm d-flex justify-content-lg-evenly justify-content-start gap-4 align-items-center">
+            <i class="fa-solid fa-file-arrow-down  fa-lg" style="color: #d73ce2;"></i>
+            <div>
+              <h4>Downloadable <br> Content</h1>
+                <p>With Lifetime Access</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 gy-3 gx-4">
+          <div
+            class="highlight-item px-4 shadow-sm d-flex justify-content-lg-evenly justify-content-start gap-4 align-items-center">
+            <i class="fa-solid fa-diagram-project  fa-lg" style="color: #7174d1;"></i>
+            <div>
+              <h4>Six Industry based Level <br> Projects</h1>
+                <p>Get Practical Skills</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6  gy-3 gx-4">
+          <div
+            class="highlight-item px-4 shadow-sm d-flex justify-content-lg-evenly justify-content-start gap-4 align-items-center">
+            <i class="fa-solid fa-comments  fa-lg " style="color: #a1f524;"></i>
+            <div>
+              <h4>Doubt Clearing <br>Session</h1>
+                <p>Gain a Clear understaning</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex justify-content-center mt-4 mb-3">
+            <button class=" btn callUsBtn ">Book Free Classes</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="container-fluid mb-5">
+    <div class="container mt-5">
+      <div class="row mb-4">
+        <div class="col-lg-12 text-center headerSec3">
+          <h1>Top Career options in <br> Digital Marketing</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorum voluptas laboriosam maxime
+            repellendus natus.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center gy-3 gx-5">
+        <div class="col-12 col-lg-4 col-sm-6">
+          <div class="shadow-lg p-3 card">
+            <i class="fa-solid fa-money-bill-trend-up fa-lg my-3"></i>
+            <h3>Content Marketer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ea doloremque? Quasi tenetur, accusantium
+              natus asperiores eum nihil veritatis animi!</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-sm-6">
+          <div class="shadow-lg p-3 card">
+            <i class="fa-brands fa-searchengin fa-lg my-3"></i>
+            <h3>SEO Specialist</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ea doloremque? Quasi tenetur, accusantium
+              natus asperiores eum nihil veritatis animi!</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-sm-6">
+          <div class="shadow-lg p-3 card">
+            <div class="logoCard">
+              <i class="fa-solid fa-users fa-lg my-3"></i>
+            </div>
+            <h3>Social Media Manager</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ea doloremque? Quasi tenetur, accusantium
+              natus asperiores eum nihil veritatis animi!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tabCon container-fluid py-4 mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center ">
+            <h1>Curricuram of <br> Our Digital Marketing</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quod repudiandae enim reiciendis
+              vitae qui.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 MyTab">
+        <ul class="listNav nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item " role="presentation">
+            <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+              type="button" role="tab" aria-controls="pills-home" aria-selected="true">Introduction</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Case Studies</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Google Adsense</button>
+          </li>
+          
+        </ul>
+      </div>
+        <div class="tab-content shadow-lg py-4" id="pills-tabContent">
+
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="listTab">
+                  <ul>
+                    <li> <i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> What is Digital
+                      Marketing ?</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Requirement of Digital
+                      marketing.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Digital Marketing for
+                      Working Professional.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Job Opportunities in
+                      Digital Marketing.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="listTab">
+                  <ul>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> What is Digital Marketing
+                      ?</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Requirement of Digital
+                      marketing.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Digital Marketing for
+                      Working Professional.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Job Opportunities in
+                      Digital Marketing.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="listTab">
+                  <ul>
+                    <li> <i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> What is Digital
+                      Marketing ?</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Requirement of Digital
+                      marketing.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Digital Marketing for
+                      Working Professional.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Job Opportunities in
+                      Digital Marketing.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="listTab">
+                  <ul>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> What is Digital Marketing
+                      ?</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Requirement of Digital
+                      marketing.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Digital Marketing for
+                      Working Professional.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Job Opportunities in
+                      Digital Marketing.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+            tabindex="0">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="listTab">
+                  <ul>
+                    <li> <i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> What is Digital
+                      Marketing ?</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Requirement of Digital
+                      marketing.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Digital Marketing for
+                      Working Professional.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Job Opportunities in
+                      Digital Marketing.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="listTab">
+                  <ul>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> What is Digital Marketing
+                      ?</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Requirement of Digital
+                      marketing.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Digital Marketing for
+                      Working Professional.</li>
+                    <li><i class="fa-solid fa-circle-check fa-lg" style="color: #74C0FC;"></i> Job Opportunities in
+                      Digital Marketing.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-center mt-4 mb-3">
+              <button class=" btn callUsBtn ">Downlaod Curricuram</button>
+            </div>
+          </div>
+        </div>
+    
+    </div>
+  </section>
+
+  <section class="container-fluid py-4 mb-1">
+    <div class="container">
+      <div class="row py-3">
+        <div class="accText col-12 text-center">
+          <h1>Digital Marketing Course <br> FAQs</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam perspiciatis tenetur nihil dolores iusto illo, repellat dicta fugit consequuntur dignissimos.</p>
+        </div>
+      </div>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button myBtn" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              What is Website Development?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              What is Digital Marketing?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Who can Learn Digital Marketing ?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container-fluid mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center py-1">
+          <h6 class="text-secondary"> &copy; copyright by vraj makwana 2025 </h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+<script src="JS/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,144 @@
+@media only screen  and (max-width : 575px) and (min-width : 200px){
+  .btn-outer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px 0px;
+  }
+
+  .whatsappBtn,.callUsBtn{
+    padding: 7px 15px;
+    font-size: 14px;
+    
+  }
+
+  
+.bannerContent h1{   
+  text-align: center;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.bannerContent h1 br{
+  display: none;
+}
+.bannerContent p,.bannerContent ul li{
+  font-size: 16px;
+}
+
+.bannerContentBtn  {
+  display: flex;
+  flex-direction: column;
+}
+
+.bannerContent button{
+  width: 100%;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.bannerForm{
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.bar{
+  margin-top: 5px;
+}
+
+.bar h1{
+  font-size: 20px;
+}
+
+.bar p{
+  font-size: 16px;
+}
+
+.bar h1 i {
+  font-size: 15px;
+}
+
+.barBox{
+  margin-bottom: 10px;
+  padding: 0px 0px;
+}
+
+.highlight-item h4{
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+
+.highlight-item p{
+  font-size: 12px;
+}
+
+.highlight-header h2{
+  font-size: 20px;
+}
+
+.highlight-header p{
+  font-size: 16px;
+}
+
+.highlight-item i{
+  padding: 0px;
+  font-size: 30px;
+  z-index: 1;
+}
+
+.card h3{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card p{
+  font-size: 12px;
+}
+
+.card i{
+  font-size: 25px;
+  padding: 10px 0px;
+}
+
+.headerSec3 h1{
+  font-size: 20px;
+}
+
+.headerSec3 {
+  font-size: 16px;
+}
+
+.accText h1{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.listTab ul li{
+  list-style: none;
+  font-size: 12px;
+}
+
+.listNav{
+  padding: 0px;
+}
+
+.MyTab button{
+  font-size: 14px;
+}
+}
+
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1170px;
+  }
+}
+
